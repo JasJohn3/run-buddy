@@ -1,3 +1,4 @@
+/* Global Styles Section */
 *{
   margin: 0;
   padding: 0;
@@ -10,6 +11,14 @@ body{
 header{
   padding: 20px 35px;
   background-color: #39a6b2;
+}
+section{
+  padding: 60px;
+}
+/* Global Styles Section */
+.hero{
+  background-image: url("../images/hero-bg.jpg");
+  height: 600px;
 }
 header h1{
   font-weight: bold;
