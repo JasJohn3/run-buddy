@@ -251,15 +251,17 @@ section{
   font-size: 55px;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
-  display: inline-block;
+}
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .contact-info iframe{
   height: 400px;
 }
+
 .contact-info div {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   color: white;
 }
 .contact-info > *{
