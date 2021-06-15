@@ -71,10 +71,11 @@ section{
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 /* Global Styles Section */
 /* Utility Classes */
@@ -91,6 +92,9 @@ section{
 
 .text-right {
   text-align: right;
+}
+.flex-row{
+  display: flex;
 }
 /* Utility Classes */
 /* Hero Style Start */
@@ -146,9 +150,7 @@ section{
 
 
 /* What We Do Section Styling */
-.intro{
-  text-align: center;
-}
+
 
 .intro p {
   line-height: 1.7;
@@ -156,11 +158,11 @@ section{
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 /* What We Do Section Styling */
 /* What you do Section Styling */
 .steps { 
-  text-align: center;
   background: #fce138;
 }
 .steps div {
@@ -187,9 +189,7 @@ section{
 }
 /* What you do Section Styling */
 /* Meet the Trainers Section Styling */
-.trainers{
-  text-align: center;
-}
+
 .trainer{
   width: 900px;
   margin: 0 auto 30px auto;
@@ -225,7 +225,6 @@ section{
 /* Reach Out Section Styling */
 .contact{
   background: #024e76;
-  text-align: center;
 }
 .contact-title{
   color: #fce138;
