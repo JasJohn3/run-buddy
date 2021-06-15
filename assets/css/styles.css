@@ -417,7 +417,8 @@ header nav ul{
   justify-content: center;
 }
 header nav ul li a{
-  font-size: 20px;
+  font-size: 18px;
+  padding: 5px;
 }
 
 footer h2, footer div{
